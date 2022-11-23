@@ -1,0 +1,24 @@
+Apro netflix
+    if;	
+	abbiamo almeno 1 ora?
+	    scelgo film
+	abbiamo meno di 1 ora?
+	    scelgo serie
+    scelgo il genere del film/serie
+	vado nella libreria
+	if;
+	    visto?
+		torno nella libreria
+	    non visto?
+		visualizzo la trama del film/serie
+		    if;
+			la trama mi piace?
+			    propongo il film ad altri
+			la trama non mi piace?
+			    torno alla libreria
+		    if;
+			la trama non piace ad altri?
+			    torno alla libreria
+			la trama piace ad altri?
+	visualizzo il film
+fine
